@@ -78,7 +78,7 @@
             bindings = <
 &kp ESC     &kp NUMBER_1     &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp N1         &kp NUMBER_6  &kp N7                &kp N8                 &kp N9      &kp N0  &kp BSPC
 &kp TAB     &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR    &kp PERCENT  &kp AMPERSAND  &kp SQT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
-&kp LSHIFT  &kp PLUS         &kp MINUS          &kp ASTERISK  &kp SLASH     &kp EQUAL    &kp TILDE      &kp QUESTION  &kp RS(LEFT_BRACE)    &kp RIGHT_BRACE        &kp RSHIFT
+&kp LSHIFT  &kp PLUS         &kp MINUS          &kp ASTERISK  &kp SLASH     &kp EQUAL    &kp TILDE      &kp QUESTION  &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp RSHIFT
                              &kp LGUI           &kp LCTRL     &none         &kp MINUS    &kp LALT       &kp N2
             >;
         };
@@ -87,7 +87,7 @@
             bindings = <
 &kp ESC     &kp F1       &kp F2     &kp F3             &kp F4          &kp F5     &kp N1          &kp F6          &kp F7          &kp F8           &kp F9      &kp F10  &kp BSPC
 &kp TAB     &kp AT_SIGN  &kp GRAVE  &kp DOUBLE_QUOTES  &kp SEMICOLON   &kp COLON  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ENTER
-&kp LSHIFT  &kp Z        &kp X      &kp C              &kp V           &kp B      &kp PIPE        &kp BACKSLASH   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RSHIFT
+&kp LSHIFT  &kp Z        &kp X      &kp C              &kp V           &kp B      &kp PIPE        &kp BACKSLASH   &kp RS(LEFT_BRACE)  &kp RS(RIGHT_BRACE)  &kp RSHIFT
                          &kp LGUI   &kp LCTRL          &kp UNDERSCORE  &none      &kp LALT        &kp N2
             >;
         };
