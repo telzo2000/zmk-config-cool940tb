@@ -24,22 +24,17 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 0>;
+            key-positions = <13 14>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        BT1 {
+            bindings = <&mkp MB1>;
+            key-positions = <29 28>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        BT2 {
+            bindings = <&mkp MB2>;
+            key-positions = <28 27>;
         };
     };
 
