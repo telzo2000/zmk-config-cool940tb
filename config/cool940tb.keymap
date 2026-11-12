@@ -77,10 +77,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC     &kp NUMBER_1     &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp N1         &kp NUMBER_6  &kp N7                &kp N8                 &kp N9      &kp N0  &kp BSPC
-&kp TAB     &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR    &kp PERCENT  &kp AMPERSAND  &kp SQT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
-&kp LSHIFT  &kp PLUS         &kp MINUS          &kp ASTERISK  &kp SLASH     &kp EQUAL    &kp TILDE      &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RSHIFT
-                             &kp LGUI           &kp LCTRL     &none         &kp MINUS    &kp LALT       &kp N2
+&kp ESC     &kp NUMBER_1     &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp N1         &kp NUMBER_6   &kp N7                &kp N8                 &kp N9      &kp N0  &kp BSPC
+&kp TAB     &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR    &kp PERCENT  &kp AMPERSAND  &kp SQT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
+&kp LSHIFT  &kp PLUS         &kp MINUS          &kp ASTERISK  &kp SLASH     &kp EQUAL    &kp TILDE      &kp QUESTION   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RSHIFT
+                             &kp LGUI           &kp LCTRL     &none         &kp MINUS    &kp LALT       &kp BACKSPACE
             >;
         };
 
