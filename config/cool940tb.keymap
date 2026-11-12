@@ -36,6 +36,11 @@
             bindings = <&mkp MB2>;
             key-positions = <28 27>;
         };
+
+        capslock {
+            bindings = <&kp CLCK>;
+            key-positions = <24 25>;
+        };
     };
 
     macros {
@@ -63,10 +68,10 @@
 
         default_layer {
             bindings = <
-&kp ESC     &kp Q  &kp W     &kp E      &kp R        &kp T        &kp N1    &kp Y   &kp U      &kp I       &kp O       &kp P  &kp BSPC
-&kp TAB     &kp A  &kp S     &kp D      &kp F        &kp G        &kp H     &kp J   &kp K      &kp L       &kp ENTER
-&kp LSHIFT  &kp Z  &kp X     &kp C      &kp V        &kp B        &kp N     &kp M   &kp COMMA  &kp PERIOD  &kp RSHIFT
-                   &kp LGUI  &kp LCTRL  &lt 1 SPACE  &lt 2 SPACE  &kp LALT  &kp N2
+&kp ESC     &kp Q  &kp W     &kp E      &kp R        &kp T        &kp N1    &kp Y          &kp U      &kp I       &kp O       &kp P  &kp BSPC
+&kp TAB     &kp A  &kp S     &kp D      &kp F        &kp G        &kp H     &kp J          &kp K      &kp L       &kp ENTER
+&kp LSHIFT  &kp Z  &kp X     &kp C      &kp V        &kp B        &kp N     &kp M          &kp COMMA  &kp PERIOD  &kp RSHIFT
+                   &kp LGUI  &kp LCTRL  &lt 1 SPACE  &lt 2 SPACE  &kp LALT  &kp BACKSPACE
             >;
         };
 
